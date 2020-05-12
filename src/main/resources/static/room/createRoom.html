@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<meta charset="UTF-8">
+
+<head>
+    <link rel="stylesheet" type="text/css" href="../styles2.css">
+    <script type="text/javascript" src="createRoom.js"></script>
+    <title>Chat do Plena</title>
+</head>
+
+<body>
+    <div id="rectangle">
+        <div id="cadastrar">Criar sala</div>
+        <form id = "create-form" action="roomCreated.html">
+            <p> 
+                <label for="nome_cad">Nome da sala</label>
+                <input id="nome_cad" name="nome_cad" required="required" type="text" placeholder="Insira o nome da sala" />
+              </p>
+               
+              
+               <p>
+                <input type="button" value="Criar" onclick="createRoom()" id="remove-button">
+               </p>
+        </form>
+
+    </div>
+</body>
+
+</html>

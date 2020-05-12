@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<meta charset="UTF-8">
+
+<head>
+    <link rel="stylesheet" type="text/css" href="../styles2.css">
+    <link rel="stylesheet" type="text/css" href="chat.css">
+    <script src="/webjars/jquery/jquery.min.js"></script>
+    <script src="/webjars/sockjs-client/sockjs.min.js"></script>
+    <script src="/webjars/stomp-websocket/stomp.min.js"></script>
+    <script type="text/javascript" src="chat.js"></script>
+    <title>Chat do Plena</title>
+</head>
+
+<body>
+	<h1 id="title"></h1>
+    <div id="rectangle">
+        <div id="container">
+        </div>
+        <div class="textbox-container" >
+            <form>
+                <input type="text" name="message">
+                <button type="button" id="send-message-button" onclick="sendMessage()">
+                    Enviar
+                </button>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>

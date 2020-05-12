@@ -1,0 +1,46 @@
+head{
+    transition-duration: 0.5s;
+}
+body{
+    background-image: url(background.jpg);
+    background-size: cover; 
+    
+}
+h1{
+    text-align: center;
+    letter-spacing: 1vh;
+    font-size: 6vw;
+    word-spacing: 5vh;
+    padding-bottom: 5%;
+    color: powderblue;
+    user-select: none;
+}
+h2{
+
+}
+.botoes{
+    text-align: center;
+}
+.bt{
+    border-radius: 30px;
+    vertical-align: center;
+    width: 30%;
+    line-height: 60px;
+    size: 60px;
+    background-color:  #247ba0;
+    color: white;
+    font-size:30px;  
+    margin: 10px;
+    transition-duration: 500ms;
+}
+.bt:hover{
+    background-color: #64Bff4;
+    cursor: pointer;
+}
+#success_signin{
+    text-align: center;
+    font-size: 1.5vw;
+    padding-bottom: 5%;
+    color: red;
+    user-select: none;
+}

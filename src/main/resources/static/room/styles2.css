@@ -1,0 +1,55 @@
+body{
+    background-image: url(background.jpg);
+    background-size: cover; 
+    
+}
+#rectangle{
+    margin-top:7.5vh;
+    margin-left:12.5vw;
+    width: 75vw;
+    height: 85vh;
+    background-color: white;    
+    border-radius: 5%;
+    align-items: center;
+}
+#cadastrar{
+    text-align: center;
+    font-size: 72px;
+}
+p{
+    
+    margin-left:30vw;
+}
+label{
+    display:block;
+    position: relative;
+}
+#nome_cad{
+    text-align:center;
+}
+#email_cad{
+}
+#senha_cad{
+}
+#confsenha_cad{
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+#container {
+    padding-top: 3em;
+}

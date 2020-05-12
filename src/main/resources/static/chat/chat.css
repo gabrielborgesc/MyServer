@@ -1,0 +1,48 @@
+.message-received
+{
+	background-color: #ff6145;
+	text-align: left;
+}
+
+.message-received-container
+{
+	text-align: left;
+	width: 100%;
+}
+
+.message-sent
+{
+	background-color: #d1d1d1;
+	text-align: right;
+	display: block;
+	margin-left: auto;
+	margin-right: .6em;
+}
+
+.message-sent-container
+{
+	text-align: right;
+	width: 100%;
+}
+
+.message
+{
+	padding: .3em;
+	width: 20em;
+	border-radius: 5px;
+}
+.message-container
+{
+	padding: .3em
+}
+
+#container
+{
+	height: 85%;
+	overflow: scroll;
+}
+
+.textbox-container
+{
+	padding: 1em;
+}

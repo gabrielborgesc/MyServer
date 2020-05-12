@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<meta charset="UTF-8">
+
+<head>
+    <link rel="stylesheet" type="text/css" href="styles2.css">
+    <script type="text/javascript" src="signup.js"></script>
+    <title>Chat do Plena</title>
+</head>
+
+<body>
+    <div id="rectangle">
+        <div id="cadastrar">Cadastrar usuário</div>
+        <form id = "signin-form" action="../user/userSignedup.html">
+            <p> 
+                <label for="nome_cad">username</label>
+                <input id="nome_cad" name="nome_cad" required="required" type="text" placeholder="nome" />
+              </p>
+               
+              <p> 
+                <label for="email_cad">e-mail</label>
+                <input id="email_cad" name="email_cad" required="required" type="email" placeholder="contato@htmlecsspro.com"/> 
+              </p>
+               
+              <p> 
+                <label for="senha_cad">password</label>
+                <input id="senha_cad" name="senha_cad" required="required" type="password" placeholder="ex. 1234"/>
+              </p>
+
+              <p> 
+                <label for="confsenha_cad">retype password</label>
+                <input id="confsenha_cad" name="confsenha_cad" required="required" type="password" />
+              </p>
+
+              <p>
+              <label>Type</label>
+              <input id = "type_cad_a" type="radio" name="type_cad" value="Admin"> Admin
+              <input id = "type_cad_r" type="radio" name="type_cad" value="Regular" checked> Regular
+              </p>
+
+               <p>
+                <input type="button" value="Entrar" onclick="signup()" id="signin-button">
+               </p>
+        </form>
+
+    </div>
+</body>
+
+</html>

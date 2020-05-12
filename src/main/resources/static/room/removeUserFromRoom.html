@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<meta charset="UTF-8">
+
+<head>
+    <link rel="stylesheet" type="text/css" href="../styles2.css">
+    <script type="text/javascript" src="removeUserFromRoom.js"></script>
+    <title>Chat do Plena</title>
+</head>
+
+<body>
+    <div id="rectangle">
+        <div id="cadastrar">Remover usuário de uma sala</div>
+        <form id = "signin-form" action="userRemovedFromRoom.html">
+            <p> 
+                <label for="nome_cad">Nome do usuário</label>
+                <input id="nome_cad" name="nome_cad" required="required" type="text" placeholder="username" />
+              </p>
+               
+              <p> 
+                <label for="nome_sala">Nome da sala</label>
+                <input id="nome_sala" name="nome_sala" required="required" type="text" placeholder="Nome da sala"/> 
+              </p>
+            
+               <p>
+                <input type="button" value="Adicionar" onclick="removeUserFromRoom()" id="signin-button">
+               </p>
+        </form>
+
+    </div>
+</body>
+
+</html>

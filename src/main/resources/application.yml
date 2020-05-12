@@ -1,0 +1,20 @@
+server:
+  port: 8081
+
+spring:
+  mvc:
+    view:
+      prefix: /WEB-INF/jsp/
+      suffix: .html
+
+  datasource:
+    url: "jdbc:postgresql://192.168.91.55:5432/postgres?currentSchema=chat"
+    username: postgres
+    password: postgres
+
+  jpa:
+    database: postgresql
+    show-sql: true
+    generate-ddl: false
+    hibernate:
+      ddl-auto: validate

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+<meta charset="UTF-8">
+
+<head>
+    <link rel="stylesheet" type="text/css" href="../styles2.css">
+    <script type="text/javascript" src="removeRoom.js"></script>
+    <title>Chat do Plena</title>
+</head>
+
+<body>
+    <div id="rectangle">
+        <div id="cadastrar">Remover sala</div>
+        <form id = "remove-form" action="roomRemoved.html">
+            <p> 
+                <label for="nome_cad">Nome da sala a ser removida</label>
+                <input id="nome_cad" name="nome_cad" required="required" type="text" placeholder="Digite o nome da sala" />
+              </p>
+               
+              
+               <p>
+                <input type="button" value="Remover" onclick="removeRoom()" id="remove-button">
+               </p>
+        </form>
+
+    </div>
+</body>
+
+</html>

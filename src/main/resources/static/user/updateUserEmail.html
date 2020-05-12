@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<meta charset="UTF-8">
+
+<head>
+    <link rel="stylesheet" type="text/css" href="../styles2.css">
+    <script type="text/javascript" src="updateUserEmail.js"></script>
+    <title>Chat do Plena</title>
+</head>
+
+<body>
+<div id="rectangle">
+    <div id="cadastrar">Alterar e-mail do usuário</div>
+    <form id="signin-form" action="userUpdated.html">
+        <p>
+            <label for="nome_cad">username</label>
+            <input id="nome_cad" name="nome_cad" required="required" type="text" placeholder="nome"/>
+        </p>
+
+        <p>
+            <label for="email_cad">new e-mail</label>
+            <input id="email_cad" name="email_cad" required="required" type="email"
+                   placeholder="contato@htmlecsspro.com"/>
+        </p>
+
+
+        <p>
+            <input type="button" onclick="updateUserEmail()" value="Confirmar" id="signin-button">
+        </p>
+    </form>
+
+</div>
+</body>
+
+</html>
