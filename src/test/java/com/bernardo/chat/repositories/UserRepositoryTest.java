@@ -39,12 +39,12 @@ public class UserRepositoryTest
 		
 	}
 	
-	//@Test
+	@Test
 	public void findByUsername()
 	{
 		User user = userRepository.findByUsername("gabriel");
 		
-		//System.out.println(user.getPassword());
+		System.out.println(user.getPassword());
 	}
 	
 	
@@ -83,7 +83,7 @@ public class UserRepositoryTest
 			}
 		}
 	
-	@Test
+	//@Test
 	public void test() {
 		User newuser = new User();
 		newuser.setUsername("werneck");
