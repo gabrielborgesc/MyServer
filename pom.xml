@@ -8,7 +8,7 @@
         <version>2.2.5.RELEASE</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
-    <groupId>com.bernardo</groupId>
+    <groupId>com</groupId>
     <artifactId>chat</artifactId>
     <version>0.1</version>
     <packaging>jar</packaging>
